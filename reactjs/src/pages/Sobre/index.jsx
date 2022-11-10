@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "../../assets/images/aboutus.png";
-import './style.css';
+import "./style.css";
+import { Link, NavLink } from "react-router-dom";
 import Card from "../../components/Card";
-import Image2 from '../../assets/images/2.png';
-import Image3 from '../../assets/images/3.png';
-import Image4 from '../../assets/images/4.png';
-import Image6 from '../../assets/images/6.png';
-
+import Image2 from "../../assets/images/2.png";
+import Image3 from "../../assets/images/3.png";
+import Image4 from "../../assets/images/4.png";
+import Image6 from "../../assets/images/6.png";
+import CardDev from "../../components/CardPartner";
+import Roberta from "../../assets/images/roberta.jpeg";
 function Sobre() {
   return (
     <div>
@@ -34,34 +36,68 @@ function Sobre() {
         </div>
       </section>
       <h1 class="heading">Nossos Desenvolvedores</h1>
-      <section className="prof">
-                <Card
-                image={Image4}
-                name="Ana Julia"
-                profissao="ux/ui designer"
-                text="Você aprenderá como projetar interfaces."
-                />
-                <Card
-                image={Image2}
-                name="João Silva"
-                profissao="banco de dados"
-                text="Banco de dados é a organização e armazenagem de informações sobre um domínio específico. De forma mais simples, é o agrupamento de dados que tratam do mesmo assunto, e que precisam ser armazenados para segurança ou conferência futura. Venha conhecer na prática!"
-                />
-                <Card
-                image={Image3}
-                name="Clara Mendes"
-                profissao="ciência da computação"
-                text="Ciência da Computação é a área do conhecimento que atua no desenvolvimento de programas para diferentes dispositivos, a exemplo de celulares e computadores.
-                Se você tem interesse em ciências exatas e programação, esse curso pode ser a sua opção."
-                />
-                <Card
-                image={Image6}
-                name="Alex Santos"
-                profissao="engenharia da computação"
-                text="O engenheiro da computação é aquele que projeta e cria hardwares e softwares, ou seja, os equipamentos digitais físicos (como computadores, smartphones, tablets, entre outros) e os sistemas e programas utilizados neles, respectivamente.
-                Este profissional também pode atuar no gerenciamento da automação de máquinas, como máquinas industriais, o que também o coloca à frente na atuação em robótica."
-                />
-            </section>
+      <section className="box-dev">
+        <div className="dev-card">
+          <img className="mx-auto d-block" src="" alt="" />
+          <div className="description">
+            <h3>Andressa Fernandes</h3>
+            <p>full stack jr</p>
+            <div className="share">
+              <a href="https://github.com/andressafe" target="_blank" className="fab fa-brands fa-github"></a>
+              <a href="/" className="fab fa-instagram"></a>
+              <a href="/" className="fab fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+        <div className="dev-card">
+          <img className="mx-auto d-block" src="" alt="" />
+          <div className="description">
+            <h3>Jefferson</h3>
+            <p>full stack jr</p>
+            <div className="share">
+              <a href="https://github.com/jeffersonaa" target="_blank" className="fab fa-brands fa-github"></a>
+              <a href="/" className="fab fa-instagram"></a>
+              <a href="/" className="fab fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+        <div className="dev-card">
+          <img className="mx-auto d-block" src="" alt="" />
+          <div className="description">
+            <h3>Henrique Janser</h3>
+            <p>full stack jr</p>
+            <div className="share">
+              <a href="https://github.com/HenriqueJanser" className="fab fa-brands fa-github"></a>
+              <a href="/" className="fab fa-instagram"></a>
+              <a href="/" className="fab fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+        <div className="dev-card">
+          <img className="mx-auto d-block" src={Roberta} alt="" />
+          <div className="description">
+            <h3>Roberta Teles</h3>
+            <p>back-end</p>
+            <div className="share">
+              <a href="https://github.com/robertateles" target="_blank" className="fab fa-brands fa-github"></a>
+              <a href="/" className="fab fa-instagram"></a>
+              <a href="https://www.linkedin.com/in/roberta-teles/" target="_blank" className="fab fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+        <div className="dev-card">
+          <img className="mx-auto d-block" src="" alt="" />
+          <div className="description">
+            <h3>Tamyres Pereira</h3>
+            <p>back-end</p>
+            <div className="share">
+              <a href="https://github.com/tamyrespereirasilva" target="_blank" className="fab fa-brands fa-github"></a>
+              <a href="" className="fab fa-instagram"></a>
+              <a href="https://www.linkedin.com/in/tamyrespereirasilva" target="_blank" className="fab fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

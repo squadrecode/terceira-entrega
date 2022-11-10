@@ -6,6 +6,7 @@ import Image3 from '../../assets/images/3.png';
 import Image4 from '../../assets/images/4.png';
 import Image6 from '../../assets/images/6.png';
 import Card from "../../components/Card";
+import CardPartner from "../../components/CardPartner";
 
 
 function Home(){
@@ -49,6 +50,37 @@ function Home(){
                 Este profissional também pode atuar no gerenciamento da automação de máquinas, como máquinas industriais, o que também o coloca à frente na atuação em robótica."
                 />
             </section>
+            <h1 className="heading">Empresas Parceiras</h1>
+            <section className="box-partner">
+                <CardPartner
+                name="Estante Virtual"
+                text="Itau"
+                />
+                <CardPartner
+                name="Estante Virtual"
+                text="Itau"
+                />
+                <CardPartner
+                name="Estante Virtual"
+                text="Itau"
+                />
+                <CardPartner
+                name="Estante Virtual"
+                text="Itau"
+                />
+                <CardPartner
+                name="Estante Virtual"
+                text="Itau"
+                />
+                <CardPartner
+                name="Estante Virtual"
+                text="Itau"
+                /><CardPartner
+                name="Estante Virtual"
+                text="Itau"
+                />
+            </section>
+
         </div>
     )
 }
