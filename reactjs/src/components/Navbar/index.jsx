@@ -37,7 +37,7 @@ function Navbar(){
                     <Link to={"/planos"}>Planos</Link>
                 </a>
                 <a>
-                    <Link>Feed</Link>
+                    <Link to={"/feed"}>Feed</Link>
                 </a>
                 <a>
                     <Link to={"/doacao"}>Doações</Link>

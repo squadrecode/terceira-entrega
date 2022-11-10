@@ -9,6 +9,14 @@
     font-size: 4rem;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .prof {
     display: flex;
     flex-wrap: wrap;
