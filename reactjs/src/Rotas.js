@@ -7,6 +7,7 @@ import Planos from './pages/Planos';
 import Doacao from './pages/Doacao';
 import Contato from './pages/Contato';
 import Sobre from './pages/Sobre';
+import Feed from './pages/Feed';
 
 function Rotas(){
     return(
@@ -15,6 +16,7 @@ function Rotas(){
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/cursos' element={<Cursos/>}/>
+                <Route path='/feed' element={<Feed/>}/>
                 <Route path='/planos' element={<Planos/>}/>
                 <Route path='/doacao' element={<Doacao/>}/>
                 <Route path='/contato' element={<Contato/>}/>
