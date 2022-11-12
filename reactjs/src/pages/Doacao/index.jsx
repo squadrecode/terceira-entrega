@@ -15,8 +15,8 @@ function Doacao() {
     <div>
       <section className="home" id="home">
         <div className="content">
-          <h3>Planos</h3>
-          <p>Venha fazer parte da Treete.</p>
+          <h3>Doação</h3>
+          <p>Doar é um ato de amor.</p>
         </div>
         <div className="image">
           <img src={DoacaoImg} alt="" />
@@ -39,7 +39,7 @@ function Doacao() {
         <div className="container3">
         <Donation
         image={Celular}
-        text="Doar para infraestruturas, um melhor acesso no campo."
+        text="Doar para os alunos adquirir aparelhos celulares integrados com a escola."
         />
         <Donation
         image={Credito}

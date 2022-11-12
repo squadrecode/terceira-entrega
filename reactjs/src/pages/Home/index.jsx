@@ -5,6 +5,9 @@ import Image2 from '../../assets/images/2.png';
 import Image3 from '../../assets/images/3.png';
 import Image4 from '../../assets/images/4.png';
 import Image6 from '../../assets/images/6.png';
+import Itau from '../../assets/images/itau.png';
+import Objetivo from '../../assets/images/objetivo-logo.jpg';
+import Colegio from '../../assets/images/colegio-adventista.png'
 import Card from "../../components/Card";
 import CardPartner from "../../components/CardPartner";
 
@@ -53,31 +56,19 @@ function Home(){
             <h1 className="heading">Empresas Parceiras</h1>
             <section className="box-partner">
                 <CardPartner
-                name="Estante Virtual"
+                name="Colégio Adventista"
+                image={Colegio}
+                text="Educação"
+                />
+                <CardPartner
+                name="Leia para uma criança"
+                image={Itau}
                 text="Itau"
                 />
                 <CardPartner
-                name="Estante Virtual"
-                text="Itau"
-                />
-                <CardPartner
-                name="Estante Virtual"
-                text="Itau"
-                />
-                <CardPartner
-                name="Estante Virtual"
-                text="Itau"
-                />
-                <CardPartner
-                name="Estante Virtual"
-                text="Itau"
-                />
-                <CardPartner
-                name="Estante Virtual"
-                text="Itau"
-                /><CardPartner
-                name="Estante Virtual"
-                text="Itau"
+                name="Colégio Objetivo"
+                image={Objetivo}
+                text="Educação"
                 />
             </section>
 

@@ -1,14 +1,11 @@
 import React from "react";
 import Image from "../../assets/images/aboutus.png";
 import "./style.css";
-import { Link, NavLink } from "react-router-dom";
-import Card from "../../components/Card";
-import Image2 from "../../assets/images/2.png";
-import Image3 from "../../assets/images/3.png";
-import Image4 from "../../assets/images/4.png";
-import Image6 from "../../assets/images/6.png";
-import CardDev from "../../components/CardPartner";
-import Roberta from "../../assets/images/roberta.jpeg";
+import Andressa from '../../assets/images/andressa.jpg';
+import Jefferson from '../../assets/images/jefferson.jpg';
+import Henrique from '../../assets/images/henrique.jpg';
+import Roberta from "../../assets/images/roberta.jpg";
+import Tamyres from '../../assets/images/tamyres.jpg';
 function Sobre() {
   return (
     <div>
@@ -35,24 +32,24 @@ function Sobre() {
           </p>
         </div>
       </section>
-      <h1 class="heading">Nossos Desenvolvedores</h1>
+      <h1 class="heading">Conheça Nossos Desenvolvedores</h1>
       <section className="box-dev">
         <div className="dev-card">
-          <img className="mx-auto d-block" src="" alt="" />
+          <img className="mx-auto d-block" src={Andressa} alt="" />
           <div className="description">
             <h3>Andressa Fernandes</h3>
             <p>full stack jr</p>
             <div className="share">
               <a href="https://github.com/andressafe" target="_blank" className="fab fa-brands fa-github"></a>
               <a href="/" className="fab fa-instagram"></a>
-              <a href="/" className="fab fa-linkedin"></a>
+              <a href="http://www.linkedin.com/in/andressa-fernandesASilva" target="_blank" className="fab fa-linkedin"></a>
             </div>
           </div>
         </div>
         <div className="dev-card">
-          <img className="mx-auto d-block" src="" alt="" />
+          <img className="mx-auto d-block" src={Jefferson} alt="" />
           <div className="description">
-            <h3>Jefferson</h3>
+            <h3>Jefferson Arruda</h3>
             <p>full stack jr</p>
             <div className="share">
               <a href="https://github.com/jeffersonaa" target="_blank" className="fab fa-brands fa-github"></a>
@@ -62,14 +59,14 @@ function Sobre() {
           </div>
         </div>
         <div className="dev-card">
-          <img className="mx-auto d-block" src="" alt="" />
+          <img className="mx-auto d-block" src={Henrique} alt="" />
           <div className="description">
             <h3>Henrique Janser</h3>
             <p>full stack jr</p>
             <div className="share">
-              <a href="https://github.com/HenriqueJanser" className="fab fa-brands fa-github"></a>
+              <a href="https://github.com/HenriqueJanser" target="_blank" className="fab fa-brands fa-github"></a>
               <a href="/" className="fab fa-instagram"></a>
-              <a href="/" className="fab fa-linkedin"></a>
+              <a href="https://www.linkedin.com/in/henriquejanser/" target="_blank" className="fab fa-linkedin"></a>
             </div>
           </div>
         </div>
@@ -77,7 +74,7 @@ function Sobre() {
           <img className="mx-auto d-block" src={Roberta} alt="" />
           <div className="description">
             <h3>Roberta Teles</h3>
-            <p>back-end</p>
+            <p>full stack jr</p>
             <div className="share">
               <a href="https://github.com/robertateles" target="_blank" className="fab fa-brands fa-github"></a>
               <a href="/" className="fab fa-instagram"></a>
@@ -86,10 +83,10 @@ function Sobre() {
           </div>
         </div>
         <div className="dev-card">
-          <img className="mx-auto d-block" src="" alt="" />
+          <img className="mx-auto d-block" src={Tamyres} alt="" />
           <div className="description">
             <h3>Tamyres Pereira</h3>
-            <p>back-end</p>
+            <p>full stack jr</p>
             <div className="share">
               <a href="https://github.com/tamyrespereirasilva" target="_blank" className="fab fa-brands fa-github"></a>
               <a href="" className="fab fa-instagram"></a>

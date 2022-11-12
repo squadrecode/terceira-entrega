@@ -41,6 +41,9 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background: var(--bg-color-2);
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
 }
 
 

@@ -20,6 +20,7 @@ import X from '../../assets/images/x.svg';
                     <img src={Plano} alt="" />
                 </div>
             </section>
+            <h1 className="heading">Nossos Serviços</h1>
             <div className="row">
                 <CardPlano
                 image={Plano1}

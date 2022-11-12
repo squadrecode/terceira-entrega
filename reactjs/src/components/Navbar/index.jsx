@@ -51,7 +51,9 @@ function Navbar(){
             </nav>
             <div className="icons">
                 <i className="fas fa-search" id="search"></i>
-                <i className="fas fa-user"></i>
+                <Link to={"/create"}>
+                    <i className="fas fa-user"></i>
+                </Link>
             </div>
         </header>
     )
